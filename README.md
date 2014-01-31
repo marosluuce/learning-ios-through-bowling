@@ -17,4 +17,4 @@ open LearningIosThroughBowling.xcworkspace
 Additional Resources
 - [Treehouse - Objective-C Basics](http://teamtreehouse.com/library/objectivec-basics)
 - [Code School - Try Objective-C](http://tryobjectivec.codeschool.com/?__utma=1.1771838905.1389932055.1389932055.1390179202.2&__utmb=1.2.10.1390179202&__utmc=1&__utmk=41161378&__utmv=-&__utmx=-&__utmz=1.1390179202.2.2.utmcsr%3Dgoogle%7Cutmccn%3D%28organic%29%7Cutmcmd%3Dorganic%7Cutmctr%3D%28not%20provided%29)
-- [iOS Cheatsheet](http://ios-blog.co.uk/resources/objective-c-cheat-sheet/)
+- [Objective-C Cheatsheet](http://ios-blog.co.uk/resources/objective-c-cheat-sheet/)
