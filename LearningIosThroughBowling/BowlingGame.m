@@ -2,6 +2,13 @@
 
 @implementation BowlingGame
 
+- (id)init {
+  if (self = [super init]) {
+  }
+  
+  return self;
+}
+
 - (void)roll:(int)pins {
   
 }
