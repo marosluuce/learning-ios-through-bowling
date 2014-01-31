@@ -18,7 +18,10 @@
 		1484227D189B535E00338A02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14842262189B535D00338A02 /* Foundation.framework */; };
 		1484227E189B535E00338A02 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14842266189B535D00338A02 /* UIKit.framework */; };
 		14842286189B535E00338A02 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 14842284189B535E00338A02 /* InfoPlist.strings */; };
-		14842288189B535E00338A02 /* LearningIosThroughBowlingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14842287189B535E00338A02 /* LearningIosThroughBowlingTests.m */; };
+		14842292189B53C200338A02 /* BowlingGameSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 14842291189B53C200338A02 /* BowlingGameSpec.m */; };
+		14842295189B540D00338A02 /* BowlingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 14842294189B540D00338A02 /* BowlingGame.m */; };
+		14842296189B540D00338A02 /* BowlingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 14842294189B540D00338A02 /* BowlingGame.m */; };
+		7C86D92ECCD240B5849E41C7 /* libPods-LearningIosThroughBowlingTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB06D614E0A641DABF278BF0 /* libPods-LearningIosThroughBowlingTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +50,11 @@
 		1484227B189B535E00338A02 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		14842283189B535E00338A02 /* LearningIosThroughBowlingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LearningIosThroughBowlingTests-Info.plist"; sourceTree = "<group>"; };
 		14842285189B535E00338A02 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		14842287189B535E00338A02 /* LearningIosThroughBowlingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LearningIosThroughBowlingTests.m; sourceTree = "<group>"; };
+		14842291189B53C200338A02 /* BowlingGameSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BowlingGameSpec.m; sourceTree = "<group>"; };
+		14842293189B540D00338A02 /* BowlingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BowlingGame.h; sourceTree = "<group>"; };
+		14842294189B540D00338A02 /* BowlingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BowlingGame.m; sourceTree = "<group>"; };
+		1F1E14C6916C4584A6560E22 /* Pods-LearningIosThroughBowlingTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearningIosThroughBowlingTests.xcconfig"; path = "Pods/Pods-LearningIosThroughBowlingTests.xcconfig"; sourceTree = "<group>"; };
+		BB06D614E0A641DABF278BF0 /* libPods-LearningIosThroughBowlingTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LearningIosThroughBowlingTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +75,7 @@
 				1484227C189B535E00338A02 /* XCTest.framework in Frameworks */,
 				1484227E189B535E00338A02 /* UIKit.framework in Frameworks */,
 				1484227D189B535E00338A02 /* Foundation.framework in Frameworks */,
+				7C86D92ECCD240B5849E41C7 /* libPods-LearningIosThroughBowlingTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +89,7 @@
 				14842281189B535E00338A02 /* LearningIosThroughBowlingTests */,
 				14842261189B535D00338A02 /* Frameworks */,
 				14842260189B535D00338A02 /* Products */,
+				1F1E14C6916C4584A6560E22 /* Pods-LearningIosThroughBowlingTests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +109,7 @@
 				14842264189B535D00338A02 /* CoreGraphics.framework */,
 				14842266189B535D00338A02 /* UIKit.framework */,
 				1484227B189B535E00338A02 /* XCTest.framework */,
+				BB06D614E0A641DABF278BF0 /* libPods-LearningIosThroughBowlingTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -111,6 +121,8 @@
 				14842272189B535D00338A02 /* AppDelegate.m */,
 				14842274189B535D00338A02 /* Images.xcassets */,
 				14842269189B535D00338A02 /* Supporting Files */,
+				14842293189B540D00338A02 /* BowlingGame.h */,
+				14842294189B540D00338A02 /* BowlingGame.m */,
 			);
 			path = LearningIosThroughBowling;
 			sourceTree = "<group>";
@@ -129,8 +141,8 @@
 		14842281189B535E00338A02 /* LearningIosThroughBowlingTests */ = {
 			isa = PBXGroup;
 			children = (
-				14842287189B535E00338A02 /* LearningIosThroughBowlingTests.m */,
 				14842282189B535E00338A02 /* Supporting Files */,
+				14842291189B53C200338A02 /* BowlingGameSpec.m */,
 			);
 			path = LearningIosThroughBowlingTests;
 			sourceTree = "<group>";
@@ -168,9 +180,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1484228E189B535E00338A02 /* Build configuration list for PBXNativeTarget "LearningIosThroughBowlingTests" */;
 			buildPhases = (
+				9AA0A6D9AEE14D8B8A87448F /* Check Pods Manifest.lock */,
 				14842276189B535E00338A02 /* Sources */,
 				14842277189B535E00338A02 /* Frameworks */,
 				14842278189B535E00338A02 /* Resources */,
+				B6DB6FC6954D446F8D1D84BB /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -234,11 +248,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9AA0A6D9AEE14D8B8A87448F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B6DB6FC6954D446F8D1D84BB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-LearningIosThroughBowlingTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1484225B189B535D00338A02 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14842295189B540D00338A02 /* BowlingGame.m in Sources */,
 				14842273189B535D00338A02 /* AppDelegate.m in Sources */,
 				1484226F189B535D00338A02 /* main.m in Sources */,
 			);
@@ -248,7 +296,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14842288189B535E00338A02 /* LearningIosThroughBowlingTests.m in Sources */,
+				14842296189B540D00338A02 /* BowlingGame.m in Sources */,
+				14842292189B53C200338A02 /* BowlingGameSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,6 +433,7 @@
 		};
 		1484228F189B535E00338A02 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F1E14C6916C4584A6560E22 /* Pods-LearningIosThroughBowlingTests.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LearningIosThroughBowling.app/LearningIosThroughBowling";
@@ -407,6 +457,7 @@
 		};
 		14842290189B535E00338A02 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F1E14C6916C4584A6560E22 /* Pods-LearningIosThroughBowlingTests.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LearningIosThroughBowling.app/LearningIosThroughBowling";
@@ -443,6 +494,7 @@
 				1484228D189B535E00338A02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1484228E189B535E00338A02 /* Build configuration list for PBXNativeTarget "LearningIosThroughBowlingTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +503,7 @@
 				14842290189B535E00338A02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
